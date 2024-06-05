@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My education page</title>
+<link rel="stylesheet" href="myeducation.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<!--INDEX NAVIGATION BAR-->
+<nav class="navbar">
+  <a href="index.html"><img src="images/mylogo.png" alt="Ziyad's Journal Logo" class="logo"></a>
+
+  <div id="navbar-right">
+    <p><button onclick="myFunction()">Toggle dark mode</button></p>
+      <ul>
+          <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                  <a href="index.html">BACK TO HOMEPAGE</a>
+                  <a href="aboutme.html">THIS IS ABOUT ME</a>
+                  <a href="myeducation.html">MY EDUCATION RECORDS</a>
+                  <a href="parents.html">MY LOVELY PARENTS</a>
+                  <a href="friends.html">MY GROUP OF FRIENDS</a>
+              </div>
+          </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <text-align: left>menu of personal details</text-align: left></span>
+<br>                          
+          <div id="myPedro" class="pedro-overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closePedro()">&times;</a>
+              <div class="pedro-overlay-content">
+                  <a href="mygallery.html">PICTURES OF ONLY ME</a>
+                  <a href="foodgallery.html">PICTURES OF FOODS AND OTHER YUMMY STUFF</a>
+              </div>
+          </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openPedro()">&#9776; <text-align:left>menu to the zee's studio</text-align:left></span>
+      </ul>
+</div>       
+</nav>
+
+<div style="margin-top:170px;padding:15px 15px 25px;font-size:30px">
+
+<!--INDEX SCROLL UP BUTTON-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">go back to the top</button>
+
+<!--INDEX MOVING TEXT ON IMAGE-->
+<div class="container">
+    <div class="text-box">
+        <h1>EDUCACIÓN</h1>
+        <h3>THE PLACE WHERE I GAIN KNOWLEDGE AND FRIENDS</h3>
+        <div class="row">
+            <a href="friends.html">Who are my friends?</a>
+            <a href="foodgallery.html">Yummy food pictures<span>&#x27F6;</span></a>
+            <span>I might look like the opposite of smart<br>but my records might prove all of you guys otherwise.</span>
+        </div> 
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.instagram.com/zeepurples?igsh=ajJ0bnp0NHNuZGEw"><img src="images/instagram.png"></a>
+  </div>
+</div>
+
+
+<!--INDEX FIRST HEADER-->
+<div class="firstheader">
+    <div class="divider">ZIYAD'S JOURNAL</div>
+    <br>
+    <div id="div1" class="fa fa-lg"></div>
+  </div>
+<br>
+<center>
+  <h2>SOMETIMES I WOULD LIKE TO THINK MY FRIENDS ARE LIKE MY OWN SIBLINGS!</h2>
+  <p>Several pictures of my high school and university friends:</p>
+</center>
+  
+<center>
+  <div class="slideshow-container">
+  
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="images/education2.jpg" style="width:70%">
+      <div class="text">Hi there. Yeah, you over there!</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="images/education3.jpg" style="width:70%">
+      <div class="text">Welcome to my own personal website ta-daa!</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="images/education4.jpg" style="width:70%">
+      <div class="text">How are you liking it so far?</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img src="images/education5.jpg" style="width:70%">
+      <div class="text">Well, how about you go on explore the website further to find out yourself, enjoy!</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="images/education6.jpg" style="width:70%">
+      <div class="text">How are you liking it so far?</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="images/education7.jpg" style="width:70%">
+      <div class="text">Well, how about you go on explore the website further to find out yourself, enjoy!</div>
+    </div>
+
+    </div>
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+</center>
+<br>
+
+
+
+
+
+
+
+ <!--INDEX SECOND HEADER AND TYPING EFFECT-->
+ <div class="secondheader">
+  <div class="divider"> <center>
+      <h1>THIS MESSAGE IS FOR THE YOUNGER VERSION OF ME.</h1>
+      <button onclick="typeWriter()">Go on and open it</button>
+      <p id="demo"></p>
+      </center>
+  </div>
+</div>
+<br>
+
+
+
+
+
+<center>
+<section class="timeline">
+  <div class="timeline-row">
+      <div class="timeline-column">
+        <h2 class="title">Education <span class="animate" style="--i:1;"></span></h2> 
+
+        <div class="timeline-box">
+          <div class="timeline-content">
+              <div class="content">
+                  <div class="year"><i class='bx bxs-calendar'></i>2011 - 2016</div>
+                  <h3>Elementary School</h3>
+                  <p>The elementary school name was Sekolah Kebangsaan Petaling Jaya a.k.a. SKPJ. Truth be told that I don't remember much about my time studying there but I believe it was filled with pleasant memories.</p>
+              </div>
+          </div>
+
+          <div class="timeline-content">
+              <div class="content">
+                  <div class="year"><i class='bx bxs-calendar'></i>2017 - 2022</div>
+                  <h3>High School</h3>
+                  <p>The high school name was Sekolah Menengah Kebangsaan La Salle Petaling Jaya. This time around was filled with harder issues and it has taught me lessons on both academic wise and human interactions.</p>
+              </div>
+          </div>
+
+          <div class="timeline-content">
+              <div class="content">
+                  <div class="year"><i class='bx bxs-calendar'></i>2022 - 2025</div>
+                  <h3>University</h3>
+                  <p>The university name is Universiti Teknologi Mara a.k.a. UiTM. I definitely was shock at first with the new environment and being far from my parents for the first time in my life for an extended period of time.</p>
+              </div>
+          </div>
+
+          <span class="animate" style="--i:2;"></span>
+        </div>
+      </div>
+
+      <div class="timeline-column">
+          <h2 class="title">Experience<span class="animate" style="--i:4;"></span></h2> 
+
+          <div class="timeline-box">
+            <div class="timeline-content">
+                <div class="content">
+                    <div class="year"><i class='bx bxs-calendar'></i>2014-2016</div>
+                    <h3>THE ELEMENTARY SCHOOL'S LIBRARIAN</h3>
+                    <p>Ever since I became a librarian back in elementary school, I would not have believed you if you told me that becoming a librarian would be some sort of passion for me. But the task at the time was easy as I only needed to rearrange the books.</p>
+                </div>
+            </div>
+
+            <div class="timeline-content">
+                <div class="content">
+                    <div class="year"><i class='bx bxs-calendar'></i>2018-2019</div>
+                    <h3>THE HIGH SCHOOL'S LIBRARIAN</h3>
+                    <p>When high school came around, I decided to take up the librarian role again because I needed to escape several situations that I could not get myself out of, and it was a good time for sure. There is a more challenging task, but I took it with strides.</p>
+                </div>
+            </div>
+
+            <div class="timeline-content">
+                <div class="content">
+                    <div class="year"><i class='bx bxs-calendar'></i></div>
+                    <h3>A FULL-TIME BAKERY EMPLOYEE</h3>
+                    <p>My position at the bakery ranges from cashier to sales assistant. I made coffee, served pastries, and managed money. It was definitely a worthwhile experience and I made several good friends when I was working there.</p>
+                </div>
+            </div>
+
+            <span class="animate" style="--i:5;"></span>
+          </div>
+        </div>
+  </div>
+</section>
+</center>
+<br>
+
+
+
+
+
+<!--ABOUT` ME-->
+<center>
+<div class="row">
+  <div class="side">
+   
+    <h2>A little bit known fact about me:</h2>
+    <h5>Me feeling on top of the world:</h5>
+    <img src="images/education8.jpg" style="width:50%;">
+    <p>People call me Zee. They also said I write too much but hey what else can I do to help me make sense of every aspect of my life? My love for writing ties into one of my fears - memory loss. 
+    <p>My earbuds and headphones have seen better days due to the hours of music and podcasts playing in my ear. I have thousands of music playlists for every mood because music is what fuels me as a human being.</p>
+    <h3>I LIKE LATE-NIGHT DRIVES, WITH THE WINDOWS DOWN AS THE MUSIC PLAYING LOUDLY IN THE CAR</h3>
+    <p>So yeah, I would often say Im not hungry but then again, I love food as much as I love reading books so take that as you will. Cafe-hunting and taking pictures of the well-prepared dishes and drinks? Sign me up because thats what I called a good time.</p>
+    <img src="images/education10.jpg" style="width:50%"><br>
+    <br>
+    <img src="images/education11.jpg" style="width:50%"><br>
+    <br>
+  </div>
+  <div class="main">
+    <h2>PERSONALITY</h2>
+    <h5>Me rethinking my life decisions:</h5>
+    <img src="images/education9.jpg"style="width:50%;">
+    <p>It's hard to choose when both options provide the best benefit and satisfaction.</p>
+    <p>I can't decide whether I prefer coffee or tea. Something is soothing about drinking tea, but on the other hand, coffee provides a strong sense of energy that can jolt you up. </p>
+    <p>So I guess that kind of informs all of you that firstly, I'm an indecisive person who can always change his mind with the help of overthinking. And secondly, I'm just someone who prefers both coffee and tea.</p>
+    <br>
+    <h2>ASPIRATIONS</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <img src="images/education12.jpg"style="width:50%;">
+    <p>Aspire to be bigger but cherish the child-like hopes and dreams</p>
+    <p>Once, when I was a child, I dreamed of owning a two-story building. I have a vision where I would open up a coffeehouse/bookstore on the first floor of the building, while my residence would reside on the second floor, beneath the coffeehouse/bookstore. A cute dream pipeline that still brings a smile to my face.</p>
+  </div>
+</div>
+</center>
+  
+   
+<!-- INDEX FOOTERS-->
+<div class="footer">
+    <h2>Copyright by @ziyadsjournal</h2>
+  </div>
+</div>
+<br><br>
+<script src="myeducation.js"></script>
+</body>
+</html>

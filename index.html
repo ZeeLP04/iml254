@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index page</title>
+<link rel="stylesheet" href="index.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<!--INDEX NAVIGATION BAR-->
+<nav class="navbar">
+  <a href="index.html"><img src="images/mylogo.png" alt="Ziyad's Journal Logo" class="logo"></a>
+
+  <div id="navbar-right">
+    <p><button onclick="myFunction()">Toggle dark mode</button></p>
+      <ul>
+          <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                  <a href="index.html">BACK TO HOMEPAGE</a>
+                  <a href="aboutme.html">THIS IS ABOUT ME</a>
+                  <a href="myeducation.html">MY EDUCATION RECORDS</a>
+                  <a href="parents.html">MY LOVELY PARENTS</a>
+                  <a href="friends.html">MY GROUP OF FRIENDS</a>
+              </div>
+          </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <text-align: left>menu of personal details</text-align: left></span>
+<br>                          
+          <div id="myPedro" class="pedro-overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closePedro()">&times;</a>
+              <div class="pedro-overlay-content">
+                  <a href="mygallery.html">PICTURES OF ONLY ME</a>
+                  <a href="foodgallery.html">PICTURES OF FOODS AND OTHER YUMMY STUFF</a>
+              </div>
+          </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openPedro()">&#9776; <text-align:left>menu to the zee's studio</text-align:left></span>
+      </ul>
+</div>       
+</nav>
+
+<div style="margin-top:170px;padding:15px 15px 25px;font-size:30px">
+
+<!--INDEX SCROLL UP BUTTON-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">go back to the top</button>
+
+
+<!--INDEX MOVING TEXT ON IMAGE-->
+<div class="container">
+  <div class="text-box">
+      <h1>HOLA!</h1>
+      <h3>WELCOME TO ZIYAD'S JOURNAL</h3>
+      <div class="row">
+          <a href="aboutme.html">Get to know me</a>
+          <a href="mygallery.html">View my pictures<span>&#x27F6;</span></a>
+          <span>A fellow writer who is eager<br>to share more than the words he writes.</span>
+      </div> 
+  </div>
+
+  <div class="social-icons">
+      <a href="https://www.instagram.com/zeepurples?igsh=ajJ0bnp0NHNuZGEw"><img src="images/instagram.png"></a>
+  </div>
+</div>
+
+
+<!--INDEX FIRST HEADER-->
+<div class="firstheader">
+  <div class="divider">ZIYAD'S JOURNAL</div>
+  <br>
+  <div id="div1" class="fa fa-lg"></div>
+</div>
+<br>
+<center>
+<h2>RAINY WEATHER REMINDS ME OF SNOW!</h2>
+<p>Several pictures of the last two weeks:</p>
+</center>
+
+<center>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/index2.jpg" style="width:70%">
+    <div class="text">Hi there. Yeah, you over there!</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/index3.jpg" style="width:70%">
+    <div class="text">Welcome to my own personal website ta-daa!</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/index4.jpg" style="width:70%">
+    <div class="text">How are you liking it so far?</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="images/index5.jpg" style="width:70%">
+    <div class="text">Well, how about you go on explore the website further to find out yourself, enjoy!</div>
+  </div>
+  
+  </div>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+<br>
+
+
+<!--INDEX SECOND HEADER AND TYPING EFFECT-->
+<div class="secondheader">
+    <div class="divider"> 
+        <h1>A SHORT MESSAGE TO WHOEVER<br>SCROLLING THE PAGE RIGHT NOW.</h1>
+        <button onclick="typeWriter()">Open the short message</button>
+        <p id="demo"></p>
+    </div>
+  </div>
+  <br><br>
+
+<!-- INDEX FOUR BARS-->
+<div class="bar-row">
+    <div class="bar-column">
+      <div class="card">
+        <p><i class="fa fa-pencil-square"></i></p>
+        <h3>A PERCEPTIVE</h3>
+        <p>WRITER</p>
+      </div>
+    </div>
+  
+    <div class="bar-column">
+      <div class="card">
+        <p><i class="fa fa-book"></i></p>
+        <h3>AN AMATEUR</h3>
+        <p>PHOTOGRAPHER</p>
+      </div>
+    </div>
+  
+    <div class="bar-column">
+      <div class="card">
+        <p><i class="fa fa-camera-retro"></i></p>
+        <h3>A DEEP</h3>
+        <p>READER</p>
+      </div>
+    </div>
+  
+    <div class="bar-column">
+      <div class="card">
+        <p><i class="fa fa-film"></i></p>
+        <h3>AN AVID</h3>
+        <p>MOVIEGOER</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="mains">
+    <div class="row">
+        <div class="imgWrapper">
+            <img src="images/index1.jpg" alt="">
+        </div>
+        <div class="contentWrapper">
+            <div class="content">
+                <span class="textWrapper">
+                    <span></span>Dream Bigger for a Bigger Life
+                </span>
+                <h2>A SHORT INSIGHT INTO WHO AM I AS A PERSON:</h2>
+                <p>Some people would say I'm a hopeless romantic, and unknowingly, even to myself, I have applied it to every part of my life.<p>
+                <p>I wish to own and reside in a small house deep in the woods. And I would waste my time writing stories and taking pictures. That is how I envisioned my life five years from now. My life's mission is to create art and content, regardless of fame and profit.</p>
+                <a href="aboutme.html">Find out more about me</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- INDEX FOOTERS-->
+<div class="footer">
+    <h2>Copyright by @ziyadsjournal</h2>
+  </div>
+</div>
+<br><br>
+<script src="index.js"></script>
+</body>
+</html>
